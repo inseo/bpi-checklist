@@ -1,5 +1,5 @@
 Bonnes Pratiques de l'Intégration
 =================================
 
-Checklist
----------
+Checklist d'évaluation
+----------------------
