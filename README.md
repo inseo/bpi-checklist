@@ -1,2 +1,5 @@
-bpi-checklist
-=============
+Bonnes Pratiques de l'Intégration
+=================================
+
+Checklist
+---------
