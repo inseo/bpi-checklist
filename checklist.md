@@ -1,5 +1,18 @@
-CONFORMITÉ ET RENDU NAVIGATEUR
-==============================
+Index des maquettes
+===================
+1. [page 1](#)
+2. [page 2](#)
+3. [page 3](#)
+
+
+
+
+Évaluation individuelle des pages
+=================================
+
+
+Conformité et rendu navigateur
+------------------------------
 
 |                       |   1   |   2   |   3   |
 |-----------------------|-------|-------|-------|
@@ -19,9 +32,8 @@ CONFORMITÉ ET RENDU NAVIGATEUR
 | Opera Mobile          |       |       |       |
 
 
-
 HTML
-====
+----
 
 |                                                                                                   |   1   |   2   |   3   |
 |---------------------------------------------------------------------------------------------------|-------|-------|-------|
@@ -36,9 +48,8 @@ HTML
 | Les icônes de navigation sont accompagnées d’une légende explicite (`alt` pour les éléments `<img>` et `title` pour les éléments `<a>`, `<button>` ou `<input>`).   |       |       |       |
 
 
-
-CONTENU
-=======
+Contenu
+-------
 
 |                                                                                                                                                  |   1   |   2   |   3   |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------|-------|
@@ -63,9 +74,8 @@ CONTENU
 | L’utilisateur reçoit un feedback pour chaque action réalisée.                                                                                    |       |       |       |
 
 
-
-ACCESSIBILITÉ
-=============
+Accessibilité
+-------------
 
 |                                                                                                                                                  |   1   |   2   |   3   |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------|-------|
@@ -85,9 +95,9 @@ ACCESSIBILITÉ
 | La couleur ne doit pas être le seul vecteur d’information (saisie obligatoire dans un formulaire, par exemple).                                  |       |       |       |
 
 
+Référencement
+-------------
 
-RÉFÉRENCEMENT
-=============
 |                                                                                                                                                  |   1   |   2   |   3   |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------|-------|
 | Les URL sont simples à retenir pour les utilisateurs et les moteurs de recherche.                                                                |       |       |       |
@@ -97,9 +107,9 @@ RÉFÉRENCEMENT
 | Le temps de chargement et le poids des pages est optimisé.                                                                                       |       |       |       |
 
 
+Tests fonctionnels
+------------------
 
-TESTS FONCTIONNELS
-==================
 |                                                                                                                                                  |   1   |   2   |   3   |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|-------|-------|-------|
 | L’accès aux contenus et services est possible sans scripts ni plug-ins.                                                                          |       |       |       |
@@ -109,3 +119,28 @@ TESTS FONCTIONNELS
 | Les fonctionnalités complexes sont pleinement opérationnelles.                                                                                   |       |       |       |
 | Les formulaires sont fonctionnels et renvoient les feedbacks adéquats.                                                                           |       |       |       |
 | Les liens externes sont valides.                                                                                                                 |       |       |       |
+
+
+
+
+Évaluation transversale de l’intégration
+========================================
+
+
+CSS
+---
+
+|                                                                                                                                                  | &nbsp; |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|--------|
+| La taille des polices destinées à l’affichage écran est exprimée en taille variable.                                                             |        |                                                             
+| Le focus clavier n’est ni supprimé ni masqué.                                                                                                    |        |
+| Les styles ne sont pas utilisés pour générer du contenu important.                                                                               |        || Les liens sont visuellement différenciés du reste du contenu.                                                                                    |        || Le soulignement est réservé aux liens.                                                                                                           |        || Un style différent est appliqué aux liens visités et non visités.                                                                                |        |
+Accessibilité-------------
+
+|                                                                                                                                                  | &nbsp; |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|--------|
+| Le site n’impose pas de redirection ou de rafraîchissement automatique côté client (`<meta http-equiv="refresh">`).                              |        || Le site n’emploie pas la technique des jeux de cadres (`<frameset>`, `<frame>`, `<noframe>`).                                                    |        |
+Performance-----------
+|                                                                                                                                                  | &nbsp; |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|--------|
+| Les images sont optimisées (le format est adapté et le poids contrôlé).                                                                          |        || La feuille de styles est optimisée (utilisation de l’héritage, pas de surcharge inutile des sélecteurs)                                          |        || Les fonctions de scripts sont placées dans un ou plusieurs fichiers externes.                                                                    |        || Une fois le développement terminé, les sauts de ligne et les espaces inutiles sont supprimés dans l’ensemble des fichiers statiques (JavaScript/CSS/HTML).   |        |
